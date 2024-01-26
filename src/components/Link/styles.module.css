@@ -1,0 +1,29 @@
+.container {
+    width: 290px;
+    height: 40px;
+    background-color: var(--color-gray);
+    border-radius: 15px;
+    display: flex;
+        text-align: center;
+    justify-content: center;
+
+}
+
+.link {
+    display: block;
+    padding-top: 10px;
+    width: 290px;
+    height: 40px;
+    background-color: var(--color-gray);
+    text-decoration: none;
+    font-weight: var(--font-weight-xl);
+    color: var(--color-light);
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.link:hover {
+    background-color: var(--color-accent);
+    color: var(--color-dark-gray);
+}

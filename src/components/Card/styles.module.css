@@ -5,6 +5,10 @@
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
+}
+
+.description {
+    font-size: 12px;
+    padding-bottom: 20px;
 }

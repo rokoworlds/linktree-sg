@@ -1,5 +1,9 @@
+import styles from './styles.module.css';
+
 export const Link = (title: {title: string}) => {
     return (
-        <a href="/">{title.title}</a>
+        <li className={styles.container}>
+            <a className={styles.link} href="/">{title.title}</a>
+        </li>
     )
 }
