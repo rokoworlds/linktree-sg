@@ -1,14 +1,19 @@
-
+/* Normalize */
+@import url('./styles/normalize.css');
 
 /* Fonts */
-
-
 @import url('./styles/fonts/fonts.css');
 
+/* Colors */
 @import url('./styles/colors/colors.css');
+
+
 
 
 body {
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-m);
+    font-size: var(--font-size-base);
+    background-color: var(--color-black);
+    color: var(--color-light);
 }
