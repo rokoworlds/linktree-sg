@@ -10,10 +10,21 @@
 
 
 
+/* Global */
+
+:root {
+    --border-radius: 15px
+}
+
+
 body {
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-m);
     font-size: var(--font-size-base);
     background-color: var(--color-black);
     color: var(--color-light);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

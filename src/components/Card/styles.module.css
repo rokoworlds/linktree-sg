@@ -1,0 +1,6 @@
+.card {
+    width: 25em;
+    height: 40em;
+    background-color: var(--color-dark-gray);
+    border-radius: var(--border-radius);
+}
