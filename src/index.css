@@ -1,0 +1,14 @@
+
+
+/* Fonts */
+
+
+@import url('./styles/fonts/fonts.css');
+
+@import url('./styles/colors/colors.css');
+
+
+body {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-m);
+}
