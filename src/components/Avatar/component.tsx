@@ -1,14 +1,13 @@
-import { useContext } from 'react'
 import styles from './styles.module.css'
-import { UserContext } from '../../contexts/User'
+import { useUserContext } from '../../hooks/useUserContext'
 
 export const Avatar = () => {
-    const user = useContext(UserContext)
+    const user = useUserContext()
     return (
         <div className={styles.container}>
             <img
                 className={styles.avatar} 
-                src={user?.url}
+                src={user.url}
                 alt="Avatar"
                 width={90}
                 height={90}
