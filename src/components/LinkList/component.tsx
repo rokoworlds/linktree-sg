@@ -1,13 +1,16 @@
+import { useContext } from "react";
 import { Link } from "../Link/component";
 import styles from './styles.module.css'
-const data = ['Github', 'Blog', 'LinkedIn', 'Instagram', 'Portfolio']
+import { UserContext } from "../../contexts/User";
 
 
 export const LinkList = () => {
+    const user = useContext(UserContext);
+    const links = user?.links
     return (
         <ul className={styles.container}>
-            {data.map((title) => {
-                return <Link title={title} />
+            {links?.map((link) => {
+                return <Link title={link.title} />
             })}
         </ul>
     )
